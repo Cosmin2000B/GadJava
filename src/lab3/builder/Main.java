@@ -11,5 +11,6 @@ public class Main
         builder.setVideo("Nvidia");
 
         Computer myComputer = builder.build();
+        System.out.println(myComputer);
     }
 }
