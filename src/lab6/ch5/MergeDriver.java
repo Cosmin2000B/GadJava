@@ -78,8 +78,20 @@ public class MergeDriver
         List<Integer> l1 = new ArrayList<>(Arrays.asList(1,5,6));
         List<Integer> l2 = new ArrayList<>(Arrays.asList(2,3,4));
 
+        System.out.println("Varianta de la curs:");
         System.out.println(merge(l1, l2));
         l1.addAll(Arrays.asList(7, 8, 9));
         System.out.println(merge(l1, l2));
+
+        l1.clear();
+        l2.clear();
+
+        l1 = new ArrayList<>(Arrays.asList(1, 5, 6));
+        l2 = new ArrayList<>(Arrays.asList(2, 3, 4));
+
+        System.out.println("Varianta 2:");
+        System.out.println(Merge_V2.merge(l1, l2));
+        l1.addAll(Arrays.asList(7, 8, 9));
+        System.out.println(Merge_V2.merge(l1, l2));
     }
 }
