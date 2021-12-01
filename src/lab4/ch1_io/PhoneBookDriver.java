@@ -29,11 +29,11 @@ public class PhoneBookDriver
 
     public static void main(String[] args)
     {
-        Phonebook phoneBook = new Phonebook("./src/lab4/io/contacts.txt");
+        Phonebook phoneBook = new Phonebook("./src/lab4/ch1_io/contacts.txt");
 
         //System.out.println(phoneBook);
         System.out.println(phoneBook.findContact("Abbey"));
 
-        storeContactToFile("./src/lab4/io/foundContacts.txt", phoneBook.findContact("Abbey"));
+        storeContactToFile("./src/lab4/ch1_io/foundContacts.txt", phoneBook.findContact("Abbey"));
     }
 }
