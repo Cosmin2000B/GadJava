@@ -1,4 +1,4 @@
-package lab4.io;
+package lab4.ch1_io;
 
 public class Contact
 {
