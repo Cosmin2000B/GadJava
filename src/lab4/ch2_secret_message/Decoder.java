@@ -1,8 +1,6 @@
 package lab4.ch2_secret_message;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Decoder
@@ -35,7 +33,7 @@ public class Decoder
         }
         catch(IOException e)
         {
-            System.out.println(e.fillInStackTrace());
+            System.out.println(e.toString() + " " + e.fillInStackTrace());
         }
         finally
         {

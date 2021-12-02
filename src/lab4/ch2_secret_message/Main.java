@@ -1,7 +1,5 @@
 package lab4.ch2_secret_message;
 
-import java.util.List;
-
 public class Main
 {
     public static void main(String[] args)
