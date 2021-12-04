@@ -33,7 +33,7 @@ public class Decoder
         }
         catch(IOException e)
         {
-            System.out.println(e.toString() + " " + e.fillInStackTrace());
+            System.out.println(e + " " + e.fillInStackTrace());
         }
         finally
         {
