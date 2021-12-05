@@ -22,5 +22,6 @@ public class Main
 
         dollar = new Usd(exchangeDesk.convert(lei, new Usd(0)));
         System.out.println(dollar.getValue());
+
     }
 }
