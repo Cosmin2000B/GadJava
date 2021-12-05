@@ -15,7 +15,7 @@ public class Anagram
 
             while(input.hasNext())
             {
-                String word = input.next();
+                String word = input.next();System.out.println(word);
                 int size = word.length() - 1;
 
                 writeToFile("Anagrams for the word " + word + " are:");
@@ -35,7 +35,7 @@ public class Anagram
 
     // backtracking for permutations
     private void showAnagrams(String s, int start, int end)
-    {
+    {System.out.println(s);
         if(start == end)
             writeToFile(s);
         else
