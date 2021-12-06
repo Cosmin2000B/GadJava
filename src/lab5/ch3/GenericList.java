@@ -47,4 +47,14 @@ public class GenericList<T> implements IGenericList<T>
 
         System.out.println();
     }
+
+    public Node<T> getFirst()
+    {
+        return first;
+    }
+
+    public Node<T> getLast()
+    {
+        return last;
+    }
 }
